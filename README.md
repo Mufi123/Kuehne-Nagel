@@ -1,7 +1,7 @@
 # Kuehne-Nagel
 Demo automation test for https://demoqa.com/books
 
-#Introduction
+   #Introduction
    * [Project Structure](##Project-Structure)
    * [Installing](##Installing)
    * [How to run](##How-To-Run)
@@ -11,7 +11,7 @@ Demo automation test for https://demoqa.com/books
 
 
 ## Project Structure
- ####UI cases are running via cypress: 
+   UI cases are running via cypress: 
 ```bash
 *   integration/sampleTestCases/Case1: Expected validations for study portal.
 
@@ -36,7 +36,7 @@ Demo automation test for https://demoqa.com/books
 
 ```
                     
-####Below Api tests are created in axios running via chai
+   Below Api tests are created in axios running via chai
 ```bash
 *   Api/CaseApi: Api testing for books page.
 
@@ -53,15 +53,18 @@ Demo automation test for https://demoqa.com/books
 
 ```
 
-##Installing
-####Install NodeJS [get started](https://www.pluralsight.com/guides/getting-started-with-nodejs)
+
+
+## Instalation process
+   
+   Install NodeJS [get started](https://www.pluralsight.com/guides/getting-started-with-nodejs)
 ```bash
 npm install
 ```
 
 [![npm version](https://badge.fury.io/js/cypress.svg)](https://badge.fury.io/js/cypress)
 
-####Install Cypress for Mac, Linux, or Windows, then [get started](https://on.cypress.io/install).
+   Install Cypress for Mac, Linux, or Windows, then [get started](https://on.cypress.io/install).
 
 ```bash
 npm install cypress --save-dev
@@ -71,9 +74,9 @@ or
 yarn add cypress --dev
 ```
 
-##How To Run
+## How To Run
 
-####After installation process, it is very simple to run using below commands.
+   After installation process, it is very simple to run using below commands.
 ```bash
 Run all tests (including dashboard reports)
     -   npm run test
@@ -89,13 +92,13 @@ Run UI test in dashboard
 ```
 
 
-##Reports
+## Reports
    After compile the above dashboard or run all tests , navigate to url [cypress reports](https://dashboard.cypress.io/projects/7ev4ws/analytics/runs-over-time) , to see entire report.
    
   ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/20042494/167292984-e5354b6e-4ccf-442d-bc7c-daeaa40d3df6.gif)
   
 
-##Challenges faced
+## Challenges faced
 Multiple errors found in the page while automating 
 
 ```bash
