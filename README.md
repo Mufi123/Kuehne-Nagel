@@ -2,11 +2,11 @@
 Demo automation test for https://demoqa.com/books
 
 #Introduction
-   * [Project Structure](##Project Structure)
+   * [Project Structure](##Project-Structure)
    * [Installing](##Installing)
-   * [How to run](##How To Run)
+   * [How to run](##How-To-Run)
    * [Reports](##Reports)
-   * [Challenges faced](##Challenges faced)
+   * [Challenges faced](##Challenges-faced)
 
 
 
