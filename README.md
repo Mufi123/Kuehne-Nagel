@@ -37,7 +37,7 @@ Demo automation test for https://demoqa.com/books
 ```
                     
    Below Api tests are created in axios running via chai
-
+   
 ```bash
 *   Api/CaseApi: Api testing for books page.
 
@@ -53,7 +53,6 @@ Demo automation test for https://demoqa.com/books
     -   check user profile is deleted
 
 ```
-
 ## Instalation process
    
    Install NodeJS [get started](https://www.pluralsight.com/guides/getting-started-with-nodejs)
@@ -72,8 +71,6 @@ or
 
 yarn add cypress --dev
 ```
-## How To Run
-
 
 ## How To Run
 
@@ -101,7 +98,7 @@ Run UI test in dashboard
   
 
 ## Challenges faced
-Multiple errors found in the page while automating 
+   Multiple errors found in the page while automating 
 
 ```bash
  Error no 1:
