@@ -81,8 +81,9 @@ Run UI test in dashboard
 
 ## Reports
    After compile the above dashboard or run all tests , navigate to url [cypress reports](https://dashboard.cypress.io/projects/7ev4ws/analytics/runs-over-time) , to see entire report.
-   ![] (https://github.com/Mufi123/Kuehne-Nagel/blob/master/cypress/downloads/ezgif.com-gif-maker.gif)
-  
+   
+  ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/20042494/167292984-e5354b6e-4ccf-442d-bc7c-daeaa40d3df6.gif)
+
         
     
 
