@@ -37,6 +37,7 @@ Demo automation test for https://demoqa.com/books
 ```
                     
    Below Api tests are created in axios running via chai
+   
 ```bash
 *   Api/CaseApi: Api testing for books page.
 
@@ -52,10 +53,6 @@ Demo automation test for https://demoqa.com/books
     -   check user profile is deleted
 
 ```
-
-
-
-## Instalation process
    
    Install NodeJS [get started](https://www.pluralsight.com/guides/getting-started-with-nodejs)
 ```bash
@@ -66,6 +63,7 @@ npm install
 
    Install Cypress for Mac, Linux, or Windows, then [get started](https://on.cypress.io/install).
 
+
 ```bash
 npm install cypress --save-dev
 
@@ -73,10 +71,10 @@ or
 
 yarn add cypress --dev
 ```
-
 ## How To Run
 
    After installation process, it is very simple to run using below commands.
+
 ```bash
 Run all tests (including dashboard reports)
     -   npm run test
@@ -99,6 +97,7 @@ Run UI test in dashboard
   
 
 ## Challenges faced
+
 Multiple errors found in the page while automating 
 
 ```bash
