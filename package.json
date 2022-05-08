@@ -4,16 +4,40 @@
   "description": "Example automation test for https://demoqa.com/books",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "(npm run test-api) && (npm run test-cypress-dashboard) && (npm run test-cypress-UI-firefox)",
+    "test-cypress-UI-chrome": "node_modules/.bin/cypress run --browser chrome --config watchForFileChanges=false --spec \"cypress/integration/sampleTestCases/*.js\"",
+    "test-cypress-UI-firefox": "node_modules/.bin/cypress run --browser firefox --config watchForFileChanges=false --spec \"cypress/integration/sampleTestCases/*.js\"",
+    "test-api": "mocha \"Api/*.js\"",
+    "test-cypress-dashboard": "npx cypress run --record --key a126c35d-54a7-4ccf-b1d2-9d58428d4211"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mufi123/Kuehne-Nagel.git"
   },
-  "author": "",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Mustafa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mufi123/Kuehne-Nagel/issues"
   },
-  "homepage": "https://github.com/Mufi123/Kuehne-Nagel#readme"
+  "homepage": "https://github.com/Mufi123/Kuehne-Nagel#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "eslint": "^8.14.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-react": "^7.29.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "cypress-downloadfile": "^1.2.2",
+    "cypress-file-upload": "^5.0.8",
+    "mocha": "^9.2.2",
+    "pdfjs-dist": "^2.13.216",
+    "request": "^2.88.0",
+    "winston": "^3.7.2"
+  }
 }

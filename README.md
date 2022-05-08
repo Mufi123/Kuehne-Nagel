@@ -2,11 +2,11 @@
 Demo automation test for https://demoqa.com/books
 
    #Introduction
-   * [Project Structure](##Project-Structure)
-   * [Installing](##Installing)
-   * [How to run](##How-To-Run)
-   * [Reports](##Reports)
-   * [Challenges faced](##Challenges-faced)
+   * [Project Structure](#Project-Structure)
+   * [Instalation Process](#Instalation-process)
+   * [How to run](#How-To-Run)
+   * [Reports](#Reports)
+   * [Challenges faced](#Challenges-faced)
 
 
 
@@ -53,6 +53,7 @@ Demo automation test for https://demoqa.com/books
     -   check user profile is deleted
 
 ```
+## Instalation process
    
    Install NodeJS [get started](https://www.pluralsight.com/guides/getting-started-with-nodejs)
 ```bash
@@ -63,7 +64,6 @@ npm install
 
    Install Cypress for Mac, Linux, or Windows, then [get started](https://on.cypress.io/install).
 
-
 ```bash
 npm install cypress --save-dev
 
@@ -71,6 +71,7 @@ or
 
 yarn add cypress --dev
 ```
+
 ## How To Run
 
    After installation process, it is very simple to run using below commands.
@@ -97,8 +98,7 @@ Run UI test in dashboard
   
 
 ## Challenges faced
-
-Multiple errors found in the page while automating 
+   Multiple errors found in the page while automating 
 
 ```bash
  Error no 1:
